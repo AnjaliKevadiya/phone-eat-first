@@ -30,9 +30,11 @@ export default function ButtonAppBar() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" className={classes.title}>
-            News
+            Phone Eats First
           </Typography>
-          <Button color="inherit">Login</Button>
+          <Button color="inherit" href="/home">Home</Button>
+          <Button color="inherit" href="/profile">Profile</Button>
+          <Button color="inherit" href="/signIn">Logout</Button>
         </Toolbar>
       </AppBar>
     </div>
