@@ -34,7 +34,7 @@ export default function ButtonAppBar() {
           </Typography>
           <Button color="inherit" href="/home">Home</Button>
           <Button color="inherit" href="/profile">Profile</Button>
-          <Button color="inherit" href="/signIn">Logout</Button>
+          <Button color="inherit" href="/SignIn">Sign In</Button>
         </Toolbar>
       </AppBar>
     </div>

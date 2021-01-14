@@ -5,7 +5,8 @@ import Form from "./Components/Form";
 import Navbar from "./Components/Navbar";
 import Home from "./pages/home";
 import Profile from "./pages/profile";
-import SignIn from "./pages/signIn";
+import SignIn from "./pages/SignIn";
+
 
 function App() {
   return (
@@ -19,8 +20,9 @@ function App() {
           <Route exact path="/profile">
             <Profile />
           </Route>
-          {/* <Route exact path="/signIn">
-          <SignIn /> */}
+          <Route exact path="/SignIn">
+          <SignIn />
+          </Route>
         </Switch>
     </div>
     </Router>
